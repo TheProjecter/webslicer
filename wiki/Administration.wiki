@@ -24,4 +24,5 @@ this options will generated somthing similar to this in the blog´s footer:
 
 
 with this slice IE8 (or firefox with plugins) can discover the web slice, allow add to favorites bar and showing the last feed item of the blog RSS.
- 
+
+more info about webslices here: [http://msdn.microsoft.com/en-us/library/cc304073(VS.85).aspx]
