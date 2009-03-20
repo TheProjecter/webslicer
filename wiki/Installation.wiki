@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+    * Download webslicer For WordPress
+    * unzip and upload the file into your wp-content/plugins/ directory.
+    * Activate the plugin on your Admin Panel->Plugin Management page.
+    * Done. 
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
