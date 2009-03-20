@@ -3,13 +3,13 @@ Go to Admin Panel->Settings->Webslicer to change options fields.
 
 For default the options value are:
  
-Webslicer Title: "RSS feed - [blog_title]"
-Webslicer item time to live: 60
-RSS address (URL): [blog_rss_url]
+* Webslicer Title: "RSS feed - [blog_title]"
+* Webslicer item time to live: 60
+* RSS address (URL): [blog_rss_url]
 
 this options will generated somthing similar to this in the blog´s footer:
 
-<pre>
+{{{
      <div class="hslice" id="1">
         <p class="entry-title" style="display:none;">
 			RSS feed - [blog_title]			
@@ -20,7 +20,8 @@ this options will generated somthing similar to this in the blog´s footer:
         <a rel="feedurl" href="[blog_rss_url]"  style="display:none;></a>
         <p style="display:none;"><span class="ttl">60</span></p>
     </div>
-</pre>
+}}}
+
 
 with this slice IE8 (or firefox with plugins) can discover the web slice, allow add to favorites bar and showing the last feed item of the blog RSS.
  
