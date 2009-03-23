@@ -5,7 +5,7 @@ For default the options value are:
  
   * Webslicer Title: "RSS feed - [blog_title]"
   * Webslicer item time to live: 60
-  * RSS address (URL): [url_to_blog_RSS]
+  * RSS address (URL): "[blog_rss]"
 
 this options will generated somthing similar to this in the blog´s footer:
 
@@ -17,7 +17,7 @@ this options will generated somthing similar to this in the blog´s footer:
         <div class="entry-content" style="display:none;">
 	    <!-- nothing -->	              
         </div>
-        <a rel="feedurl" href="[blog_rss_url]"  style="display:none;></a>
+        <a rel="feedurl" href="[blog_rss]"  style="display:none;></a>
         <p style="display:none;"><span class="ttl">60</span></p>
     </div>
 }}}
