@@ -1,0 +1,4 @@
+  * Download Webslicer For WordPress
+  * Unzip and upload the file into your wp-content/plugins/ directory.
+  * Activate the plugin on your Admin Panel->Plugin Management page.
+  * Done.

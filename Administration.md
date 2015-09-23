@@ -1,0 +1,27 @@
+Go to Admin Panel->Settings->Webslicer to change options fields.
+
+For default the options value are:
+
+  * Webslicer Title: "RSS feed - [blog\_title](blog_title.md)"
+  * Webslicer item time to live: 60
+  * RSS address (URL): "[blog\_rss](blog_rss.md)"
+
+this options will generated somthing similar to this in the blog´s footer:
+
+```
+     <div class="hslice" id="1">
+        <p class="entry-title" style="display:none;">
+	  RSS feed - [blog_title]			
+	</p>
+        <div class="entry-content" style="display:none;">
+	    <!-- nothing -->	              
+        </div>
+        <a rel="feedurl" href="[blog_rss]"  style="display:none;></a>
+        <p style="display:none;"><span class="ttl">60</span></p>
+    </div>
+```
+
+
+with this slice IE8 (or firefox with plugins) can discover the web slice, allow add to favorites bar and showing the last feed item of the blog RSS.
+
+more info about webslices specification here: http://msdn.microsoft.com/en-us/library/cc304073.aspx
